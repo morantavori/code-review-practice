@@ -1,5 +1,5 @@
-from filtering import collectRelevant
-from result_handler import bumpValues, handleAdvanced
+from bad_filtering import collectRelevant
+from bad_result_handler import bumpValues, handleAdvanced
 
 globCounter = 0
 

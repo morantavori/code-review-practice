@@ -1,5 +1,5 @@
 import unittest
-from processor import runProcess, globCounter
+from bad_processor import runProcess, globCounter
 
 class Tester(unittest.TestCase):
     def test1(self):
