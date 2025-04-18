@@ -1,10 +1,11 @@
-def bumpValues(outDict, keys):
+def bumpValues(out_dict, keys):
     for k in keys:
-        if k in outDict:
-            outDict[k] += 1
+        if k in out_dict:
+            out_dict[k] += 1
         else:
-            outDict[k] = 1
-    return outDict
+            out_dict[k] = 1
+    return out_dict
+
 
 def handleAdvanced(dataA, dataB, output, modFlag, user):
     for thing in dataA:

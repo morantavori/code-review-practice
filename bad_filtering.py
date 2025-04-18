@@ -1,9 +1,9 @@
-def collectRelevant(things, known, reverseFlag):
-    tList = []
+def collectRelevant(things, known, reverse_flag):
+    t_list = []
     for t in things:
         if t not in known:
-            if reverseFlag:
-                tList.append(t)
+            if reverse_flag:
+                t_list.append(t)
             else:
-                tList.append(t[::-1])
-    return tList
+                t_list.append(t[::-1])
+    return t_list
